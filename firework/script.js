@@ -299,44 +299,44 @@ const scaleFactorSelector = () => store.state.config.scaleFactor;
 // Help Content
 const helpContent = {
 	shellType: {
-		header: 'Shell Type',
-		body: 'The type of firework that will be launched. Select "Random" for a nice assortment!'
+		header: '外壳类型',
+		body: '将发射的烟花类型。选择“随机”以获得精美的分类!'
 	},
 	shellSize: {
-		header: 'Shell Size',
-		body: 'The size of the fireworks. Modeled after real firework shell sizes, larger shells have bigger bursts with more stars, and sometimes more complex effects. However, larger shells also require more processing power and may cause lag.'
+		header: '外壳尺寸',
+		body: '烟花的大小。以真实的烟花弹尺寸为模型，较大的炮弹具有更大的爆发和更多的星星，有时效果更复杂。但是，较大的外壳也需要更多的处理能力，并可能导致滞后.'
 	},
 	quality: {
-		header: 'Quality',
-		body: 'Overall graphics quality. If the animation is not running smoothly, try lowering the quality. High quality greatly increases the amount of sparks rendered and may cause lag.'
+		header: '质量',
+		body: '整体图形质量。如果动画运行不流畅，请尝试降低质量。高质量大大增加了渲染的火花数量，并可能导致滞后.'
 	},
 	skyLighting: {
-		header: 'Sky Lighting',
-		body: 'Illuminates the background as fireworks explode. If the background looks too bright on your screen, try setting it to "Dim" or "None".'
+		header: '天空照明',
+		body: '在烟花爆炸时照亮背景。如果背景在屏幕上看起来太亮，请尝试将其设置为“暗淡”或“无”.'
 	},
 	scaleFactor: {
-		header: 'Scale',
-		body: 'Allows scaling the size of all fireworks, essentially moving you closer or farther away. For larger shell sizes, it can be convenient to decrease the scale a bit, especially on phones or tablets.'
+		header: '规模',
+		body: '允许缩放所有烟花的大小，基本上将您移近或更远。对于较大的外壳尺寸，可以方便地稍微减小比例，尤其是在手机或平板电脑上.'
 	},
 	autoLaunch: {
-		header: 'Auto Fire',
-		body: 'Launches sequences of fireworks automatically. Sit back and enjoy the show, or disable to have full control.'
+		header: '自动点火',
+		body: '自动发射烟花序列。坐下来欣赏节目，或禁用以完全控制.'
 	},
 	finaleMode: {
-		header: 'Finale Mode',
-		body: 'Launches intense bursts of fireworks. May cause lag. Requires "Auto Fire" to be enabled.'
+		header: '结局模式',
+		body: '发射强烈的烟花。可能会导致滞后。需要启用“自动点火”.'
 	},
 	hideControls: {
-		header: 'Hide Controls',
-		body: 'Hides the translucent controls along the top of the screen. Useful for screenshots, or just a more seamless experience. While hidden, you can still tap the top-right corner to re-open this menu.'
+		header: '隐藏控件',
+		body: '隐藏屏幕顶部的半透明控件。对于屏幕截图很有用，或者只是更无缝的体验。隐藏后，您仍然可以点击右上角重新打开此菜单.'
 	},
 	fullscreen: {
-		header: 'Fullscreen',
-		body: 'Toggles fullscreen mode.'
+		header: '全屏',
+		body: '切换全屏模式.'
 	},
 	longExposure: {
-		header: 'Open Shutter',
-		body: 'Experimental effect that preserves long streaks of light, similar to leaving a camera shutter open.'
+		header: '打开快门',
+		body: '保留长条纹光的实验效果，类似于打开相机快门.'
 	}
 };
 
