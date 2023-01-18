@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #66D3CD;
+}
+
+svg {
+  width: 100%;
+  visibility: hidden;
+}
